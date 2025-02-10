@@ -98,3 +98,36 @@ body {
     font-size: 28px;
   }
 }
+.music-container {
+  text-align: center;
+  color: #fff;
+}
+
+.cd-container {
+  position: relative;
+  display: inline-block;
+}
+
+.cd {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url('js/Post\ Malone.jpg') no-repeat center center;
+  background-size: cover;
+  border: 10px solid #fff;
+  animation: rotate 10s linear infinite;
+}
+
+iframe {
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
